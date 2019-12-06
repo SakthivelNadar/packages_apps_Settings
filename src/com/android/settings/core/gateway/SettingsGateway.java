@@ -148,7 +148,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
-import com.nitrogen.settings.NitrogenSettings;
+import com.gliese.settings.GlieseSettings;
 
 public class SettingsGateway {
 
@@ -286,7 +286,7 @@ public class SettingsGateway {
             BatterySaverScheduleSettings.class.getName(),
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
-            NitrogenSettings.class.getName()
+            GlieseSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -325,6 +325,6 @@ public class SettingsGateway {
             Settings.MyDeviceInfoActivity.class.getName(),
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
-            Settings.NitrogenSettingsActivity.class.getName(),
+            Settings.GlieseSettingsActivity.class.getName(),
     };
             }
