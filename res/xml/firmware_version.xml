@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Plato logo -->
+    <PreferenceScreen
+        android:key="plato_logo"
+        android:enabled="false"
+        android:layout="@layout/plato_logo" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
